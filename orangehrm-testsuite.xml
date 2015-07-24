@@ -1,0 +1,36 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suite1">
+
+    <parameter name="username" value="Admin"/>
+    <parameter name="password" value="admin"/>
+    <parameter name="browser" value="firfox"/>
+
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+
+
+    <test name="test1">
+        <classes>
+            <class name="com.examples.testng.TestNGExampleAnnotationBeforAfterClass"/>
+            <class name="com.examples.testng.TestNGExampleAnnotationTest"/>
+            <class name="com.examples.testng.TestNGExampleAnnotationBeforAfterMethod"/>
+            <class name="com.examples.testng.TestNGExampleAnnotationBeforAfterTest"/>
+            <class name="com.examples.testng.TestNGExampleAnnotationTest2"/>
+        </classes>
+    </test>
+
+
+    <!--
+    <test name="test2">
+        <classes>
+            <class name="com.examples.dataproviders.DataFromXML"/>
+        </classes>
+
+    </test>
+    -->
+
+
+</suite>

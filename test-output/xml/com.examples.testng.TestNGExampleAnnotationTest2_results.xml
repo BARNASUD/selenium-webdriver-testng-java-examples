@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test1"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.010">
+  <properties />
+  
+  
+            <testcase name="testCase1" time="0.001" classname="com.examples.testng.TestNGExampleAnnotationTest2" />
+                <testcase name="testCase6" time="0.000" classname="com.examples.testng.TestNGExampleAnnotationTest2" />
+                <testcase name="testCase2" time="0.001" classname="com.examples.testng.TestNGExampleAnnotationTest2" />
+                <testcase name="testCase5" time="0.001" classname="com.examples.testng.TestNGExampleAnnotationTest2" />
+                <testcase name="testCase2" time="0.006" classname="com.examples.testng.TestNGExampleAnnotationTest2" />
+                <testcase name="testCase4" time="0.001" classname="com.examples.testng.TestNGExampleAnnotationTest2" />
+                <testcase name="testCase2" time="0.000" classname="com.examples.testng.TestNGExampleAnnotationTest2" />
+      
+</testsuite>
